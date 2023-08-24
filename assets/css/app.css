@@ -3,6 +3,7 @@
 /* Variables */
 :root {
   --font-family: "Roboto", sans-serf;
+  
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -47,14 +48,7 @@ body {
   font-family: var(--font-family);
 }
 
-section {
-  /* max-width: 1100px;
-  margin: auto; */
-}
-
-/* CSS Resets end */
-
-/* Navbar */
+  
 nav {
   position: sticky;
   top: 0;
