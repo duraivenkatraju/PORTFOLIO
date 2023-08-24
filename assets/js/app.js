@@ -1,7 +1,21 @@
+
+
+//Blinking
+function blinker()
+  {
+    if(document.getElementById("blink"))
+    {
+        var d = document.getElementById("blink") ;
+        d.style.color= (d.style.color=='blue'?'white':'blue');
+        setTimeout('blinker()', 900);
+    }
+}
 // Nav hamburgerburger selections
 const burger = document.querySelector("#burger-menu");
 const ul = document.querySelector("nav ul");
 const nav = document.querySelector("nav");
+
+
 
 // Scroll to top selection
 const scrollUp = document.querySelector("#scroll-up");
